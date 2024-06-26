@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+       *{
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* config nova, esconde a barra de rolagem */
+        ::-webkit-scrollbar {
+            width: 0px;
+            height: 0px;
+        }
+
+        img{
+            
+            width: 100vw; /* largura de 100% porque vai ser carregada dentro do iframe */
+            
+            
+            
+
+        }
+
+        a{
+            display: block;
+            background-color: darkred;
+            margin-top: -4px; /* para eliminar o espaço */
+            padding: 20px;
+            text-align: center;
+            font-weight: bolder;
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover{
+            background-color: red;
+        }
+
+    
